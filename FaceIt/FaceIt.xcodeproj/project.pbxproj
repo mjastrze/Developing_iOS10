@@ -14,6 +14,7 @@
 		3E880F4724E56F8D007F3B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E880F4624E56F8D007F3B9F /* Assets.xcassets */; };
 		3E880F4A24E56F8D007F3B9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E880F4824E56F8D007F3B9F /* LaunchScreen.storyboard */; };
 		3E880F5324E570D6007F3B9F /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E880F5224E570D6007F3B9F /* FaceView.swift */; };
+		3E880F5524E6C215007F3B9F /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E880F5424E6C215007F3B9F /* FacialExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3E880F4924E56F8D007F3B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E880F4B24E56F8D007F3B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E880F5224E570D6007F3B9F /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		3E880F5424E6C215007F3B9F /* FacialExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				3E880F3F24E56F8C007F3B9F /* SceneDelegate.swift */,
 				3E880F5224E570D6007F3B9F /* FaceView.swift */,
+				3E880F5424E6C215007F3B9F /* FacialExpression.swift */,
 				3E880F4124E56F8C007F3B9F /* ViewController.swift */,
 				3E880F4324E56F8C007F3B9F /* Main.storyboard */,
 				3E880F5124E56FD0007F3B9F /* SupportingFiles */,
@@ -151,6 +154,7 @@
 			files = (
 				3E880F4224E56F8C007F3B9F /* ViewController.swift in Sources */,
 				3E880F3E24E56F8C007F3B9F /* AppDelegate.swift in Sources */,
+				3E880F5524E6C215007F3B9F /* FacialExpression.swift in Sources */,
 				3E880F4024E56F8C007F3B9F /* SceneDelegate.swift in Sources */,
 				3E880F5324E570D6007F3B9F /* FaceView.swift in Sources */,
 			);
