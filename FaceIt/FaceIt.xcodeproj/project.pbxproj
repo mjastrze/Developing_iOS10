@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4E197A250B9B98005E761C /* MyEmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E1979250B9B98005E761C /* MyEmotionsViewController.swift */; };
 		3E880F3E24E56F8C007F3B9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E880F3D24E56F8C007F3B9F /* AppDelegate.swift */; };
 		3E880F4024E56F8C007F3B9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E880F3F24E56F8C007F3B9F /* SceneDelegate.swift */; };
-		3E880F4224E56F8C007F3B9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E880F4124E56F8C007F3B9F /* ViewController.swift */; };
+		3E880F4224E56F8C007F3B9F /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E880F4124E56F8C007F3B9F /* FaceViewController.swift */; };
 		3E880F4524E56F8C007F3B9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E880F4324E56F8C007F3B9F /* Main.storyboard */; };
 		3E880F4724E56F8D007F3B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E880F4624E56F8D007F3B9F /* Assets.xcassets */; };
 		3E880F4A24E56F8D007F3B9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E880F4824E56F8D007F3B9F /* LaunchScreen.storyboard */; };
@@ -18,10 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E4E1979250B9B98005E761C /* MyEmotionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEmotionsViewController.swift; sourceTree = "<group>"; };
 		3E880F3A24E56F8C007F3B9F /* FaceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E880F3D24E56F8C007F3B9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E880F3F24E56F8C007F3B9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3E880F4124E56F8C007F3B9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E880F4124E56F8C007F3B9F /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		3E880F4424E56F8C007F3B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E880F4624E56F8D007F3B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E880F4924E56F8D007F3B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,10 +62,11 @@
 		3E880F3C24E56F8C007F3B9F /* FaceIt */ = {
 			isa = PBXGroup;
 			children = (
+				3E4E1979250B9B98005E761C /* MyEmotionsViewController.swift */,
 				3E880F3F24E56F8C007F3B9F /* SceneDelegate.swift */,
 				3E880F5224E570D6007F3B9F /* FaceView.swift */,
 				3E880F5424E6C215007F3B9F /* FacialExpression.swift */,
-				3E880F4124E56F8C007F3B9F /* ViewController.swift */,
+				3E880F4124E56F8C007F3B9F /* FaceViewController.swift */,
 				3E880F4324E56F8C007F3B9F /* Main.storyboard */,
 				3E880F5124E56FD0007F3B9F /* SupportingFiles */,
 			);
@@ -152,8 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E880F4224E56F8C007F3B9F /* ViewController.swift in Sources */,
+				3E880F4224E56F8C007F3B9F /* FaceViewController.swift in Sources */,
 				3E880F3E24E56F8C007F3B9F /* AppDelegate.swift in Sources */,
+				3E4E197A250B9B98005E761C /* MyEmotionsViewController.swift in Sources */,
 				3E880F5524E6C215007F3B9F /* FacialExpression.swift in Sources */,
 				3E880F4024E56F8C007F3B9F /* SceneDelegate.swift in Sources */,
 				3E880F5324E570D6007F3B9F /* FaceView.swift in Sources */,
