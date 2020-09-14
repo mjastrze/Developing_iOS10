@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1CW-1m-V4K">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Image View Controller-->
+        <scene sceneID="ctg-Ni-xoo">
+            <objects>
+                <viewController id="1CW-1m-V4K" customClass="ImageViewController" customModule="Cassini" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2PI-cz-AB9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z8E-4U-7op">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="ii8-Ub-mZc"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="ayA-ss-puf"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Z8E-4U-7op" firstAttribute="leading" secondItem="ri6-6g-nls" secondAttribute="leading" id="Nz2-Ov-E7I"/>
+                            <constraint firstItem="Z8E-4U-7op" firstAttribute="bottom" secondItem="ri6-6g-nls" secondAttribute="bottom" id="Och-zJ-oFj"/>
+                            <constraint firstItem="Z8E-4U-7op" firstAttribute="centerX" secondItem="2PI-cz-AB9" secondAttribute="centerX" id="Q1C-ZS-e1q"/>
+                            <constraint firstItem="Z8E-4U-7op" firstAttribute="top" secondItem="ri6-6g-nls" secondAttribute="top" id="V86-3i-oFY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ri6-6g-nls"/>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="Z8E-4U-7op" id="1AK-oA-giv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bU2-le-Hkf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-381.15942028985512" y="31.473214285714285"/>
+        </scene>
+    </scenes>
+</document>
