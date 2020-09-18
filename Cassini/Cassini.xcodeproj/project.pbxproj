@@ -14,6 +14,7 @@
 		3E989099250FD906001C31A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E989097250FD906001C31A8 /* LaunchScreen.storyboard */; };
 		3E9890A2250FD9FA001C31A8 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9890A1250FD9FA001C31A8 /* ImageViewController.swift */; };
 		3E9890A4250FDE82001C31A8 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9890A3250FDE82001C31A8 /* DemoURL.swift */; };
+		3ECCA1882515181300D464C3 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCA1872515181300D464C3 /* CassiniViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3E98909A250FD906001C31A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E9890A1250FD9FA001C31A8 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		3E9890A3250FDE82001C31A8 /* DemoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
+		3ECCA1872515181300D464C3 /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				3E98908E250FD906001C31A8 /* SceneDelegate.swift */,
 				3E989092250FD906001C31A8 /* Main.storyboard */,
 				3E9890A3250FDE82001C31A8 /* DemoURL.swift */,
+				3ECCA1872515181300D464C3 /* CassiniViewController.swift */,
 				3E9890A1250FD9FA001C31A8 /* ImageViewController.swift */,
 				3E98909A250FD906001C31A8 /* Info.plist */,
 				3E9890A0250FD979001C31A8 /* SupportingFiles */,
@@ -152,6 +155,7 @@
 				3E9890A4250FDE82001C31A8 /* DemoURL.swift in Sources */,
 				3E98908D250FD906001C31A8 /* AppDelegate.swift in Sources */,
 				3E9890A2250FD9FA001C31A8 /* ImageViewController.swift in Sources */,
+				3ECCA1882515181300D464C3 /* CassiniViewController.swift in Sources */,
 				3E98908F250FD906001C31A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
